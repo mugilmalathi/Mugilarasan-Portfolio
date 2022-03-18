@@ -8,7 +8,7 @@
     }
     html::-webkit-scrollbar-thumb{
         /* background-color: #607d8b; */
-        background: linear-gradient(rgba(136, 165, 191, 0.48), gray);
+        background: linear-gradient(rgba(11, 124, 223, 0.48), gray);
         border-radius: 10px;
     }
     html::-webkit-scrollbar-track{
@@ -100,7 +100,7 @@ a{
 
 }
 #profile:hover{
-    border: 1px solid #607d8b;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 #profile-left{
     width: 35%;
@@ -605,10 +605,16 @@ a{
     cursor: pointer;
 }
 #git:hover{
-    background-color: #222020da;
+    box-shadow: rgba(136, 165, 191, 0.48) 8px 4px 18px 2px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
 }
 #live:hover{
-    background-color: #63747c;
+    box-shadow: rgba(136, 165, 191, 0.48) 8px 4px 18px 2px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
 }
 #live>img{
     width: 25%;

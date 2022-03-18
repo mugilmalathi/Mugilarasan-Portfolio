@@ -54,7 +54,7 @@ function socialLocation(){
 }
 
 function gmail(){
-    window.open('https://mail.google.com/mail/u/0/#inbox')
+    window.open('https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvpbkkGFQqjfbzhxDLvJzjwJmKbqLwKBNWsvKRjJmHSQXddKFvJqwdKWXCVXwcQWbTFcQB')
 }
 
 document.getElementById('nav-contact').addEventListener('scroll', function(){
