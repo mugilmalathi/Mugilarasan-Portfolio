@@ -317,13 +317,14 @@ a{
     border-radius: 50%;
     background-color: #607d8b;
     margin-left: 700px;
-    margin-top: -70px;
 }
 .edu-left{
 }
 .edu-left>h4{
+    width: 35%;
+    text-align: right;
     padding-left: 400px;
-    padding-top: 5px;
+    margin-top: -40px;
 }
 .edu-left>h4:hover{
     color: #607d8b;

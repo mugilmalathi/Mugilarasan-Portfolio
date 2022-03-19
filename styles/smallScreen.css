@@ -190,6 +190,7 @@
         text-align: left;
     }
     .exp-left>h3{
+        padding-top: 20px;
         padding-left: 20px;
     }
     .exp-left>h5{
@@ -229,7 +230,7 @@
     height: 350px;
     gap: 50px;
 }
-.edu-left{
+.edu-right{
     width: 80%;
     margin: auto;
     height: 50%;
@@ -237,24 +238,25 @@
     font-family: 'PT Sans', sans-serif;
     text-align: left;
 }
-.edu-left>h3{
+.edu-right>h3{
+    padding-top: 20px;
     padding-left: 20px;
 }
-.edu-left>h5{
+.edu-right>h5{
     padding-left: 25px;
     line-height: 15px;
 }
-.edu-left>p{
+.edu-right>p{
     line-height: 10px;
     padding-left: 20px;
     color: gray;
     font-size: small;
 }
-.edu-right{
+.edu-left{
     width: 80%;
     margin: auto;
 }
-.edu-right>div{
+.edu-left>div{
     margin-top: 20px;
     width: 70px;
     height: 70px;
@@ -262,14 +264,14 @@
     border-radius: 50%;
     background-color: #607d8b;
 }
-.edu-right>div>svg{
+.edu-left>div>svg{
     width: 30px;
     margin-top: 20px;
 }
 .edu-right>h4{
     padding-top: 5px;
 }
-    .edu-left:hover{
+    .edu-right:hover{
         box-shadow: #607d8b 0px 1px 3px 0px, #607d8b 0px 0px 0px 1px;
     }
     .exp-left:hover{
@@ -290,7 +292,7 @@
             transform: translateX(40px);
         }
     }
-    .edu-left{
+    .edu-right{
         transition: 1s;
         animation: box2;
         animation-duration: 5s;
@@ -304,7 +306,7 @@
             transform: translateX(-50px);
         }
     }
-    .edu-left:hover{
+    .edu-right:hover{
         box-shadow: #607d8b 0px 1px 3px 0px, #607d8b 0px 0px 0px 1px;
     }
     .exp-right>div:hover{
@@ -313,7 +315,7 @@
         transform: rotateX(360deg);
     
     }
-    .edu-right>div:hover{
+    .edu-left>div:hover{
         background-color: gray;
         transition: 1s;
         transform: rotateX(360deg);
