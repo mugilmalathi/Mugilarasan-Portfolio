@@ -1,8 +1,5 @@
-
-/* mediaQuerie for small screen iPhone XR */
-
-@media only screen and (max-width: 896px) {
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
     html{
         scroll-behavior: smooth;
     }
@@ -18,6 +15,7 @@
         background-color: transparent;
         border-radius: 10px;
     }
+
     body{
         margin: 0%;
         font-family: 'PT Sans', sans-serif;
@@ -45,7 +43,7 @@
     .navbar-head{
         font-size: 10px;
         padding-top: 14px;
-        padding-left: 40px;
+        padding-left: 400px;
     }
     .navbar-head:hover{
     }
@@ -71,102 +69,146 @@
         margin-top: 20px;
     }
     #profile{
+        margin-top: 50px;
         width: 100%;
         margin: auto;
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        height: 450px;
+        /* background-color: #e5f4fa; */
+        border-radius: 10px;
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
     }
-    #profile-right{
-        width: 80%;
-        margin: auto;
-
-    }
-    #profile-right>img{
-        width: 75%;
-        margin-left: 50px;
+    #profile:hover{
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     }
     #profile-left{
-        margin: auto;
+        width: 45%;
+        margin-left: 20px;
+        line-height: 15px;
+        text-align: left;
+        font-family: 'PT Sans', sans-serif;
+    }
+    #profile-left:hover{
+        /* box-shadow: #607d8b 0px 1px 3px 0px, #607d8b 0px 0px 0px 1px; */
+    }
+    
+    #profile-right{
+        width: 55%;
+    }
+    .profile-pic{
+        width: 90%;
+        height: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .profile-pic:hover{
     }
     .full-stack{
         color: #607d8b;
-        text-align: center;
     }
     .hi{
-        letter-spacing: 5px;
-        text-align: center;
-        line-height: 7px;
+        word-spacing: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        padding-top: 10px;
+        line-height: 5px;
+    
     }
     .name{
-        text-align: center;
-        letter-spacing: 5px;
-        line-height: 7px;
+        width: 100%;
+        line-height: 5px;
     }
     .about{
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        color: gray;
+        font-size: 11px;
+        line-height: 23px;
+        font-weight: 700;
+        color: grey;
+        font-family: 'Nunito', sans-serif;
     }
     #resume{
         width: 100px;
         height: 40px;
+        margin-left: 35%;
         font-family: 'PT Sans', sans-serif;
         font-size: medium;
-        font-weight: bold;
         background-color: #607d8b;
         color: white;
         border: 1px solid #607d8b;
         cursor: pointer;
-        margin-left: 150px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    #social-show{
-        text-align: center;
-        color: gray;
     }
     #resume:hover{
         background-color: white;
         color: #607d8b;
+        
     }
-    .profile-pic{
-        width: 60%;
-        height: 260px;
-        border-radius: 50%;
-        margin-top: 25px;
-    }
+    
+    
     #social{
-        width: 25%;
-        height: 30px;
+        width: 80%;
+        height: 20px;
         display: flex;
-        gap: 20px;
-        margin-top: 10px;
-        margin-left: 60px;
+        gap: 18px;
+    }
+    #social-show{
+        text-align: center;
+        font-size: small;
     }
     #social>img{
         cursor: pointer;
     }
     #social>img:hover{
-        background-color: #607d8b;
-        transition: all 3s;
+        filter: invert(49%) sepia(30%) saturate(344%) hue-rotate(155deg) brightness(89%) contrast(85%);
     }
     #about{
-        margin-top: 330px;
+        width: 100%;
+        height: 250px;
+        margin-top: 100px;
         text-align: center;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     }
-    .about-div{
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
+    #about>h2{
+        padding-top: 5px;
+        color: #607d8b;
+    }
+    #about>p{
+        width: 40%;
+        margin: auto;
+        color: gray;
         
     }
+    .box-about{
+        display: flex;
+        width: 50%;
+        margin: auto;
+    }
+    .card-p{
+        line-height: 10px;
+    }
     .about-div-div{
-        width: 100%;
-        height: 50px;
+        margin-top: 10px;
+        display: flex;
     }
-    .about-div-div>h4{
-        line-height: 20px;
+    .about-div-div>img{
+        width: 20px;
+        height: 20px;
+        margin-top:6px;
+        cursor: pointer;
     }
+    .about-div-div>p{
+        color: black;
+        font-size: 12px;
+    }
+    .about-div-div>p:hover{
+        color: #607d8b;
+    }
+    .about-div-div>h4:hover{
+        color: #607d8b;
+        transition: all 2s;
+    }
+
+
     #experience{
         width: 100%;
         margin-top: 120px;
@@ -210,7 +252,7 @@
         margin-top: 20px;
         width: 70px;
         height: 70px;
-        margin-left: 120px;
+        margin-left: 270px;
         border-radius: 50%;
         background-color: #607d8b;
     }
@@ -255,10 +297,10 @@
     margin: auto;
 }
 .edu-right>div{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 70px;
     height: 70px;
-    margin-left: 120px;
+    margin-left: 270px;
     border-radius: 50%;
     background-color: #607d8b;
 }
@@ -420,7 +462,8 @@
     
 
     #projects{
-        width: 100%;
+        width: 80%;
+        margin: auto;
         height: 630px;
         margin-top: 100px;
         border-radius: 20px;
@@ -434,9 +477,8 @@
     #projects-div{
         width: 100%;
         height: 80%;
-        margin-left: 30px;
+        display: flex;
         grid-gap: 50px;
-        justify-content: center;
     }
     #projects-div>div{
         width: 350px;
@@ -585,7 +627,7 @@
     }
     
     #contact{
-        margin-top: 600px;
+        margin-top: 150px;
         width: 100%;
         height: 250px;
          text-align: center;
@@ -594,7 +636,7 @@
         color: #607d8b;
     }
     #social-icons{
-        width: 80%;
+        width: 60%;
         height: 50px;
         margin: auto;
         display: grid;
@@ -629,4 +671,4 @@
         padding-top: 15px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
-  }
+}

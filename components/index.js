@@ -54,9 +54,7 @@ function socialLocation(){
 }
 
 function gmail(){
-    window.open('https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvpbkkGFQqjfbzhxDLvJzjwJmKbqLwKBNWsvKRjJmHSQXddKFvJqwdKWXCVXwcQWbTFcQB')
+    document.getElementById('show-social').innerText = "mugilarasan.malathi@gmail.com"
+    document.getElementById('social-show').innerText = "mugilarasan.malathi@gmail.com"
 }
 
-document.getElementById('nav-contact').addEventListener('scroll', function(){
-    let contact = window.screenY;
-})
