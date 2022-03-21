@@ -456,7 +456,8 @@
     }
     #project-icon>div:nth-child(1){
         font-size: small;
-        width: 20%;
+        width: 25%;
+        font-weight: bold;
         height: 100;
     }
     
@@ -479,7 +480,8 @@
     }
     #project-icon1>div:nth-child(1){
         font-size: small;
-        width: 20%;
+        width: 25%;
+        font-weight: bold;
         height: 100;
     }
     #project-icon1>div>p{
@@ -600,7 +602,7 @@
         height: 50px;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-gap: 15px;
     
     }
@@ -631,4 +633,200 @@
         padding-top: 15px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
+
+
+
+
+    
+.popup-flex1{
+    margin:30px;
+  }
+  .popup-container1{
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.3);
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(21, 17, 17, 0.61);
+      display: flex;
+      align-items: center;
+      
+  }
+  .popup-content1 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%;
+  }
+  .popup-content1 p{
+      font-size: 17px;
+      padding: 10px;
+      line-height: 20px;
+  }
+  .popup-content1 span{
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .popup-content1 span:hover,
+  .popup-content1 span:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .show1{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .more-articles1{
+    margin:30px 30px 50px;
+    font-size:20px;
+  }
+  .more-articles1 a{
+    margin:0 10px;
+    text-decoration:underline;
+  }
+
+
+
+
+
+
+
+  
+.popup-flex2{
+    margin:30px;
+  }
+  .popup-container2{
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.3);
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(21, 17, 17, 0.61);
+      display: flex;
+      align-items: center;
+      
+  }
+  .popup-content2 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%;
+  }
+  .popup-content2 p{
+      font-size: 17px;
+      padding: 10px;
+      line-height: 20px;
+  }
+  .popup-content2 span{
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .popup-content2 span:hover,
+  .popup-content2 span:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .show2{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .more-articles2{
+    margin:30px 30px 50px;
+    font-size:20px;
+  }
+  .more-articles2 a{
+    margin:0 10px;
+    text-decoration:underline;
+  }
+
+
+
+
+
+
+  .popup-flex3{
+    margin:30px;
+  }
+  .popup-container3{
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.3);
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(21, 17, 17, 0.61);
+      display: flex;
+      align-items: center;
+      
+  }
+  .popup-content3 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%;
+  }
+  .popup-content3 p{
+      font-size: 17px;
+      padding: 10px;
+      line-height: 20px;
+  }
+  .popup-content3 span{
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .popup-content3 span:hover,
+  .popup-content3 span:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .show3{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .more-articles3{
+    margin:30px 30px 50px;
+    font-size:20px;
+  }
+  .more-articles3 a{
+    margin:0 10px;
+    text-decoration:underline;
+  }
   }

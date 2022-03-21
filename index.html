@@ -29,7 +29,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
     <title>Mugilarasan | Full-Stack Web Developer</title>
-    <link rel="icon" href="./Images/pro.jpg">
+    <link class="pro-icon" rel="icon" href="./Images/mugil_cube2.png">
 </head>
 <body>
     <div id="container">
@@ -46,7 +46,7 @@
         <div id="profile">
 
             <div id="profile-right">
-                <img class="profile-pic" src="./Images/mugil_cube1.png" alt="">
+                <img class="profile-pic" src="./Images/mugil_cube2.png" alt="">
             </div>
         
             <div id="profile-left">
@@ -55,14 +55,14 @@
                 <p class="full-stack">Full-Stack Web Developer</p>
                 <p class="about">Every time I look into websites or any social networking sites on the internet, I was curious how the webpage is working, what are all the operations work on the backend. This curiosity engaged me to be effective and productive in the process of learning web development. Thus my web development journey has been started.</p>
                 <button id="resume" onclick="showResume()">Resume</button>
-                <p id="social-show"></p>
+                
                 <div id="social">
-                    <img onclick="github()" class="github" src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    <img onclick="linkedin()" class="linkedin" src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/>
+                    <img onclick="github()" class="github" src="./Images/github.svg"/>
+                    <img onclick="linkedin()" class="linkedin" src="./Images/contact/linkedin.svg"/>
                     <img onclick="twitter()" class="twitter" src="./Images/twitter.png" alt="">
-                    <img onclick="gmail()" src="./Images/contact/email.png" alt="">
-                    <img onclick="socialLocation()" src="./Images/contact/location.png" alt="">
-                    <img onclick="contact()" src="./Images/contact/phone.png" alt="">
+                    <img id="popup-gmail" onclick="gmail()" src="./Images/contact/email.png" alt="">
+                    <img id="popup-location" onclick="socialLocation()" src="./Images/contact/location.png" alt="">
+                    <img id="popup-phone" onclick="contact()" src="./Images/contact/phone.png" alt="">
                 </div>
             </div>
         
@@ -159,7 +159,7 @@
                     <video width="100%" height="200" autoplay loop  >
                         <source src="./Videos/Dermstore.mp4" type="video/mp4">
                       </video>
-                    <p style="font-size: small; padding-bottom: 20px; text-align: center; padding-left: 5px; padding-right: 5px;">Webpage to buy Cosmetic items. Account authentication page added for signup and signin. Sorting functionalities helps to sort out to buy products. Add to Cart page has coupen code functionalities. </p>
+                    <p style="font-size: small; padding-bottom: 20px; text-align: center; padding-left: 5px; padding-right: 5px;">Webpage to buy Cosmetic items. Account authentication page added for signup and sign-in. Sorting functionalities helps to sort out to buy products. Add to Cart page has coupon code functionalities.</p>
                     <div id="project-icon">
                         <div><p>Tech Stack:</p></div>
                         <div>
@@ -183,10 +183,10 @@
 
                 <div class="second-project">
                     <h4 class="derm">Dunzo Clone</h4>
-                    <video width="100%" height="200"  loop  autoplay >
+                    <video width="100%" height="200" autoplay loop>
                         <source src="./Videos/Dunzo.mp4" type="video/mp4">
                       </video>
-                    <p style="font-size: small; padding-bottom: 10px; text-align: center; padding-left: 5px; padding-right: 5px;">Webpage to buy groceries and foods like nearby shops and stores. Functional landing page has search option and location options. Google authentication added for signin. Add items to add to cart by clicking images on landing page. Pick up and drop location functionalitoes added.</p>
+                    <p style="font-size: small; padding-bottom: 10px; text-align: center; padding-left: 5px; padding-right: 5px;">Webpage to buy groceries and foods like nearby shops and stores. The functional landing page has search options and location options. Google authentication was added for sign-in. Add items to add to the cart by clicking images on a landing page. Pick up and drop location functionality added.</p>
                     <div id="project-icon1">
                         <div><p>Tech Stack:</p></div>
                         <div>
@@ -220,8 +220,9 @@
       <div id="social-icons">
           <div><svg onclick="contactLinkedIn()" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></div>
           <div><svg onclick="contactTwitter()" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"/></svg></div>
-          <div><img onclick="gmail()" src="./Images/contact/email.png" alt=""></div>
-          <div><svg onclick="phone()" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"/></svg></div>
+          <img onclick="github()" class="github" src="./Images/github.svg"/>
+          <div><img id="popup-gmail-below" src="./Images/contact/email.png" alt=""></div>
+          <div><svg id="popup-phone-below" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"/></svg></div>
       </div>
       <p id="show-social" style="text-align: center;"></p>
     </div>
@@ -231,6 +232,27 @@
         <!-- <a href=""><div></div></a> -->
     </div>
 
+      </div>
+
+      <div id="popup-wrapper1" class="popup-container1">
+        <div class="popup-content1">
+          <span id="close1">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Feel free to Connect with me.!   <p style="color: #607d8b; text-align: center;">mugilarasan.malathi@gmail.com</p></p>
+        </div>
+      </div>
+
+      <div id="popup-wrapper2" class="popup-container2">
+        <div class="popup-content2">
+          <span id="close2">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Checkout my Location Here.!   <p style="color: #607d8b; text-align: center;">Dharmapuri, Tamilnadu</p></p>
+        </div>
+      </div>
+
+      <div id="popup-wrapper3" class="popup-container3">
+        <div class="popup-content3">
+          <span id="close3">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Call me to.!   <p style="color: #607d8b; text-align: center;">+91 6374488232</p></p>
+        </div>
       </div>
 </body>
 </html>
