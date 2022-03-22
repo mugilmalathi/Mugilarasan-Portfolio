@@ -1,6 +1,6 @@
 function showResume(){
 
-    window.open('https://drive.google.com/file/d/17aD0InJfukHQuwTmQ5CdGY2RS4OJ0aff/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/13NAImxx7OWeFpy5nzR_nrntVJX7gEusU/view?usp=sharing');
 }
 
 function github(){
