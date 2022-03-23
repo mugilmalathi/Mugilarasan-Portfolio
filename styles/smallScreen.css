@@ -77,13 +77,14 @@
         grid-template-rows: repeat(2, 1fr);
     }
     #profile-right{
-        width: 80%;
+        width: 60%;
+        height: 250px;
         margin: auto;
 
     }
     #profile-right>img{
-        width: 75%;
-        margin-left: 50px;
+        width: 100%;
+        height: 100%;
     }
     #profile-left{
         margin: auto;
@@ -173,6 +174,7 @@
         text-align: center;
     }
     #experience>h2{
+        padding-top: 100px;
         color: #607d8b;
     }
     #exp{
@@ -237,6 +239,24 @@
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     font-family: 'PT Sans', sans-serif;
     text-align: left;
+    margin-top: -300px;
+}
+.edu-left{
+    width: 80%;
+    margin: auto;
+    margin-top: 250px;
+}
+.edu-left>div{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    margin-left: 120px;
+    border-radius: 50%;
+    background-color: #607d8b;
+    margin-top: -140px;
+}
+.edu-left>h4{
+    padding-top: 140px;
 }
 .edu-right>h3{
     padding-top: 20px;
@@ -252,18 +272,7 @@
     color: gray;
     font-size: small;
 }
-.edu-left{
-    width: 80%;
-    margin: auto;
-}
-.edu-left>div{
-    margin-top: 20px;
-    width: 70px;
-    height: 70px;
-    margin-left: 120px;
-    border-radius: 50%;
-    background-color: #607d8b;
-}
+
 .edu-left>div>svg{
     width: 30px;
     margin-top: 20px;
@@ -329,6 +338,7 @@
         margin-top: 100px;
     }
     #skills>h2{
+        padding-top: 100px;
         color: #607d8b;
     }
     
@@ -374,6 +384,7 @@
         color: #607d8b;
     }
     #skills-first-row>div>svg{
+        width: 50%;
         margin-top: 5px;
     }
     #skills-first-row>div>svg:hover{
@@ -396,10 +407,10 @@
     
     #skills-second-row{
         width: 80%;
-        margin: auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-gap: 15px;
+        margin-left: 70px;
         margin-top: 50px;
     }
     #skills-second-row>div{
@@ -407,10 +418,12 @@
         height: 120px;
     }
     #skills-second-row>div>svg{
-        width: 100%;
+        width: 50%;
         margin-top: 5px;
+        margin-right: 50px;
     }
     #skills-second-row>div>img{
+        width: 50%;
         margin-top: 5px;
     }
     #skills-second-row>div>p{
@@ -430,6 +443,7 @@
     }
     
     #projects>h2{
+        padding-top: 100px;
         color: #607d8b;
         text-align: center;
     }
@@ -595,6 +609,7 @@
          text-align: center;
     }
     #contact>h2:nth-child(1){
+        padding-top: 100px;
         color: #607d8b;
     }
     #social-icons{
@@ -656,13 +671,14 @@
       display: flex;
       align-items: center;
       
+      
   }
   .popup-content1 {
       background-color: #fefefe;
       margin: auto;
       padding: 20px;
       border: 1px solid #888;
-      width: 30%;
+      width: 50%;
   }
   .popup-content1 p{
       font-size: 17px;
@@ -729,7 +745,7 @@
       margin: auto;
       padding: 20px;
       border: 1px solid #888;
-      width: 30%;
+      width: 50%;
   }
   .popup-content2 p{
       font-size: 17px;
@@ -794,7 +810,7 @@
       margin: auto;
       padding: 20px;
       border: 1px solid #888;
-      width: 30%;
+      width: 50%;
   }
   .popup-content3 p{
       font-size: 17px;
