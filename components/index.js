@@ -1,6 +1,6 @@
 function showResume(){
 
-    window.open('https://drive.google.com/file/d/13NAImxx7OWeFpy5nzR_nrntVJX7gEusU/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/128UBXZRe9WnQw5aklyFRcmPicaByc2Ly/view?usp=sharing');
 }
 
 function github(){
@@ -10,7 +10,7 @@ function github(){
 
 function linkedin(){
     
-    window.open('https://www.linkedin.com/in/mugilarasan-s-3992311a4/');
+    window.open('https://www.linkedin.com/in/mugil-arasan/');
 }
 function twitter(){
     
