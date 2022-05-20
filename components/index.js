@@ -40,6 +40,12 @@ function githubDerm(){
 function githubmart(){
     window.open('https://github.com/masai-course/mugilarasan_fw14_299/tree/master/unit-6/Frontend/mymart')
 }
+function githubfunmall(){
+    window.open('https://github.com/mugilmalathi/funmall')
+}
+function githubmi(){
+    window.open('https://github.com/mugilmalathi/Mi_Clone')
+}
 function liveDerm(){
     window.open('https://practical-curran-e48460.netlify.app/')
 }
@@ -49,6 +55,12 @@ function liveDunzo(){
 }
 function livemart(){
     window.open('https://sensational-starburst-e20ec7.netlify.app/')
+}
+function livefunmall(){
+    window.open('https://funmall-soloproject.vercel.app/')
+}
+function livemi(){
+    window.open('https://peppy-pudding-e16363.netlify.app/')
 }
 
 function contact(){
