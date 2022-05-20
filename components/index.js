@@ -36,7 +36,10 @@ function githubDunzo(){
 function githubDerm(){
     window.open('https://github.com/mugilmalathi/DermStore')
 }
-
+//
+function githubmart(){
+    window.open('https://github.com/masai-course/mugilarasan_fw14_299/tree/master/unit-6/Frontend/mymart')
+}
 function liveDerm(){
     window.open('https://practical-curran-e48460.netlify.app/')
 }

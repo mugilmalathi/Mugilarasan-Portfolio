@@ -471,14 +471,29 @@
     
 
     #projects{
-        width: 80%;
-        height: 630px;
+        width: 100%;
         margin-top: 100px;
         border-radius: 20px;
-        margin-left: 50px;
-    
+
     }
-    
+    .first-project{
+        width: 350px;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+    }
+    .second-project{
+        width: 350px;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+    }
+    .third-project{
+        width: 350px;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+    }
     #projects>h2{
         padding-top: 100px;
         color: #607d8b;
@@ -486,17 +501,54 @@
     }
     #projects-div{
         width: 100%;
-        height: 80%;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-gap: 50px;
     }
-    #projects-div>div{
-        width: 350px;
+    #project-icon2{
+        width: 100%;
+        height: 30px;
+        display: flex;
+    }
+    #project-icon2>div:nth-child(1){
+        font-size: small;
+        width: 25%;
+        font-weight: bold;
+        height: 100;
+    }
+    #project-icon2>div>p{
+        margin-top: -0.5px;
+        padding-left: 10px;
+    }
+    #project-icon2>div:nth-child(2){
+        width: 80%;
+        height: 100;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 2px;
+    }
+    #project-icon2>div:nth-child(2){
+        width: 80%;
+        height: 100;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 5px;
+    }
+    #project-icon2>div:nth-child(2)>img{
+        width: 23px;
+        margin-left: 2px;
+    }
+    #project-icon2>div:nth-child(2)>img:hover{
+        filter: invert(49%) sepia(30%) saturate(344%) hue-rotate(155deg) brightness(89%) contrast(85%);
+    }
+    /* #projects-div>div{
+        width: 200px;
         height: 100%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 20px;
-    }
-    #video-social{
+    } */
+    /* #video-social{
         margin-top: 20px;
     }
     #project-icon{
@@ -559,7 +611,7 @@
     }
     #project-icon>div:nth-child(2)>img:hover{
         filter: invert(49%) sepia(30%) saturate(344%) hue-rotate(155deg) brightness(89%) contrast(85%);
-    }
+    } */
     
     
     .carousel-inner img {
