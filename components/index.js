@@ -47,6 +47,9 @@ function liveDerm(){
 function liveDunzo(){
     window.open('https://sid283.github.io/dunzo_clone/homepage/index.html')
 }
+function livemart(){
+    window.open('https://sensational-starburst-e20ec7.netlify.app/')
+}
 
 function contact(){
     document.getElementById('social-show').innerText="+91 6374488232"
