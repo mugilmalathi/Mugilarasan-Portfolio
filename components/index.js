@@ -54,7 +54,7 @@ function liveDunzo(){
     window.open('https://sid283.github.io/dunzo_clone/homepage/index.html')
 }
 function livemart(){
-    window.open('https://sensational-starburst-e20ec7.netlify.app/')
+    window.open('https://chipper-tapioca-d8c52d.netlify.app/signin')
 }
 function livefunmall(){
     window.open('https://funmall-soloproject.vercel.app/')
