@@ -105,7 +105,8 @@ a{
 #profile-left{
     width: 35%;
     margin-left: 20px;
-    line-height: 65px;
+    line-height: 45px;
+    margin-top: 25px;
     text-align: left;
     font-family: 'PT Sans', sans-serif;
 }
@@ -117,9 +118,9 @@ a{
     width: 58%;
 }
 .profile-pic{
-    width: 75%;
-    height: 90%;
-    margin-top: 20px;
+    width: 90%;
+    height: 85%;
+    margin-top: 45px;
     border-radius: 10px;
     margin-left: 20px;
 }
