@@ -58,13 +58,13 @@ a{
     color: black;
 }
 .logo{
-    width: 20px;
-    height: 20px;
+    width: 180px;
+    height: 180px;
     margin-left: 130px;
-    margin-top: 25px;
     margin-right: 700px;
     cursor: pointer;
-    animation: 1.5s button linear infinite;
+    margin-top: -45px;
+    /* animation: 0.5s button linear; */
 }
 
 @keyframes button{
@@ -83,7 +83,7 @@ a{
 }
 .logo:hover{
     box-shadow: #607d8b 0px 0px 0px 2px, #607d8b 0px 4px 6px -1px, #607d8b 0px 1px 0px inset;   
-    transition: all 1.5s;
+    /* transition: all 1.5s; */
     border-radius: 5px;
     width: 30px;
     height: 30px;
